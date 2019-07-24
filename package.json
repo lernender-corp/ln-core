@@ -1,7 +1,7 @@
 {
   "name": "@lernender/core",
   "description": "Lernender, Core JavaScript Library",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "main": "index.js",
   "module": "index.js",
   "typings": "index.d.ts",
@@ -16,7 +16,8 @@
     "test": "node_modules/.bin/jest",
     "test:leaks": "node_modules/.bin/jest  --detectOpenHandles",
     "test:debug": "node --inspect-brk node_modules/.bin/jest  --runInBand",
-    "test:watch": "node_modules/.bin/jest --watch"
+    "test:watch": "node_modules/.bin/jest --watch",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "babel",
@@ -66,6 +67,11 @@
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.1.2",
     "webpack-dashboard": "^2.0.0",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "semantic-release": "^15.13.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lovelidge/ln-core.git"
   }
 }
