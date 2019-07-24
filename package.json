@@ -1,7 +1,7 @@
 {
   "name": "@lernender/core",
   "description": "Lernender, Core JavaScript Library",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "main": "index.js",
   "module": "index.js",
   "typings": "index.d.ts",
