@@ -1,2 +1,1 @@
-# ln-core
-Lernender Core ES6 Repository
+# Lernender, JavaScript Core Library

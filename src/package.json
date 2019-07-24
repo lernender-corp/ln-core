@@ -1,0 +1,15 @@
+{
+  "name": "@lernender/core",
+  "description": "Lernender Motors North America, Core JavaScript Library",
+  "version": "1.0.2",
+  "main": "index.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "files": [
+    "*"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.11"
+  }
+}
