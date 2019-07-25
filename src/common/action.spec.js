@@ -18,7 +18,6 @@ describe('Action()', () => {
     name: 'Base A',
     description: 'Base Description',
     url: 'http://google.com',
-    checked: Constant.Checkbox.Deselect,
     active: true,
     disabled: true,
     hidden: false
@@ -33,6 +32,5 @@ describe('Action()', () => {
   it(`checked`, () => {
     expect(Library.isBoolean(obj.checked)).toBe(true);
     expect(obj.checked).toBe(true);
-    expect(obj2.checked).toBe(Constant.Checkbox.Deselect);
   });
 });
