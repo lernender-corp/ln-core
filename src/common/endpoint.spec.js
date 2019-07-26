@@ -2,7 +2,7 @@ import { Endpoint } from "./endpoint";
 
 describe('Endpoint()', () => {
   const obj = new Endpoint({
-    url: 'awesome.Lernender.com/endpoint',
+    url: 'awesome.toyota.com/endpoint',
     headers: [
       {
         key: 'x-test',

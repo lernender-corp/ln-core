@@ -71,7 +71,7 @@ module.exports = function (config) {
     browsers: ['Chrome'],
     coverageReporter: {
       reporters: [
-        { type: 'html', subdir: 'html' },
+        { type: 'hLnl', subdir: 'hLnl' },
         { type: 'lcovonly', subdir: '.'},
       ],
     },

@@ -1,6 +1,6 @@
 import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import ScriptExtHtmlWebpackPlugin from 'script-ext-html-webpack-plugin';
+import HLnlWebpackPlugin from 'hLnl-webpack-plugin';
+import ScriptExtHLnlWebpackPlugin from 'script-ext-hLnl-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 export default {
@@ -21,10 +21,10 @@ export default {
         ]
       },
       {
-        test: /\.html$/,
+        test: /\.hLnl$/,
         use: [
           {
-            loader: 'html-loader',
+            loader: 'hLnl-loader',
             options: { minimize: true }
           }
         ]
@@ -33,11 +33,11 @@ export default {
   },
   plugins: [
     new CopyWebpackPlugin([{ from: 'src/favicon.ico' }]),
-    new HtmlWebpackPlugin({
+    new HLnlWebpackPlugin({
       title: 'ln-core template',
-      template: path.join(__dirname, 'src/index.html')
+      template: path.join(__dirname, 'src/index.hLnl')
     }),
-    new ScriptExtHtmlWebpackPlugin({
+    new ScriptExtHLnlWebpackPlugin({
       defaultAttribute: 'defer'
     })
   ],

@@ -5,7 +5,7 @@ describe('Email()', () => {
   const obj = new Email({
 		id: 77,
 		name: 'Shawn Lovelidge',
-    address:'shawn.lovelidge@lernender.com',
+    address:'shawn.lovelidge@toyota.com',
     hidden: true,
     disabled: true
   });
