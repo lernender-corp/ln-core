@@ -9,7 +9,7 @@ export declare class Element extends Action {
   tooltip: Tooltip;
   icon: Icon;
   ref: any;
-  html: string;
+  hLnl: string;
   labelClassList: string[];
   hasIcon(): boolean;
   hasTooltip(): boolean;

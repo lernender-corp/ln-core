@@ -17,7 +17,8 @@
     "test:leaks": "node_modules/.bin/jest  --detectOpenHandles",
     "test:debug": "node --inspect-brk node_modules/.bin/jest  --runInBand",
     "test:watch": "node_modules/.bin/jest --watch",
-    "semantic-release": "semantic-release"
+    "version": "npm run build && git add .",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "babel",

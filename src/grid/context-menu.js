@@ -2,7 +2,7 @@ import * as Library from '../library/index';
 import {Simple} from '../common/simple';
 
 /**
- * @name ContextMenu
+ * @ContextMenu
  */
 export class ContextMenu extends Simple {
   constructor(options) {
@@ -16,4 +16,4 @@ export class ContextMenu extends Simple {
     this.tooltip = Library.init(options, 'tooltip');
     this.context = Library.init(options, 'context');
   }
-} 
+}

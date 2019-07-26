@@ -13,7 +13,7 @@ export declare class Preference extends Simple {
   fontSize: number;
   root: boolean;
   columnStates: GridColumn[];
-  sortModel: any[];
+  sorLnodel: any[];
   disabled: boolean;
   rename(name:  string): Preference;
   constructor();
