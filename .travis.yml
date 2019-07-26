@@ -11,7 +11,15 @@ jobs:
       # Advanced: optionally overwrite your default `script` step to skip the tests
       # script: skip
       deploy:
-        provider: script
+        provider: npm
+        email: "$NPM_EMAIL"
+        api_key: "$NPM_API_KEY"
         skip_cleanup: true
         script:
           - npx semantic-release
+      notifications:
+        email:
+          recipients:
+          - shawnlovelidge@gmail.com
+          on_success: change
+          on_failure: always
